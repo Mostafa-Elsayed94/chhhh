@@ -23,4 +23,4 @@ Route::get('/chat', 'Chat\ChatController@index')->name('chat');
 Route::get('/conversation/{from}/{to}', 'Chat\ConversationsController');
 Route::get('/chat/messages', 'Chat\ChatMessageController@index');
 Route::post('/chat/messages', 'Chat\ChatMessageController@store');
-Route::get('/test', function(){dd('test');});
+Route::get('/test', function(){dd('testing');});
